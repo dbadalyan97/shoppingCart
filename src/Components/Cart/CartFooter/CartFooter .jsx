@@ -1,6 +1,7 @@
 import React from 'react';
+import "./cartFooter.scss";
 
-function CartFooter({ data: { subtotal } }) {
+const CartFooter = ({ subtotal }) => {
 
     return (
         <div className="footer">
